@@ -4,7 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: process.env.NODE_ENV === 'production' ? '/My_Portfolio/' : '/',
-  // If your repo name is different, change '/My_Portfolio/' to '/YOUR_REPO_NAME/'
+  base: process.env.NODE_ENV === 'production' ? '/Darthi_portfolio_updated/' : '/',
 })
 
